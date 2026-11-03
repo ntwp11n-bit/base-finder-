@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "deep_base_finder",
+  "version": "${version}",
+  "name": "Deep Base Finder",
+  "description": "Scans loaded underground terrain for storage blocks and reports their coordinates.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.deepbasefinder.DeepBaseFinderClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
